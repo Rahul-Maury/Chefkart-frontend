@@ -1,0 +1,158 @@
+.container{
+    display: flex;
+    top: 0px;
+left: 0px;
+width: 440px;
+height: 722px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+/* border:1px solid black; */
+margin: auto;
+overflow: hidden;
+z-index: -2;
+}
+.head{
+  position: relative;
+    display: flex;
+    
+
+}
+.right-1{
+    position: relative;
+   
+    top: 71px;
+    left: 251px;
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+   z-index: 0;
+    background-color: #FFF9F2;
+  
+}
+
+.vegi{
+       position: absolute;
+    width: 215px;
+    top: 84px;
+    right: -22px;
+    height: 215px;
+    z-index: 2;
+background-image: url('../../assets/vegi.png');
+}
+.vegi_1{
+    position: absolute;
+    width: 321px;
+    top: 147px;
+    right: -31px;
+    height: 130px;
+    
+z-index: 1;
+ background-image: url('../../assets/vegi-2.png');
+}
+
+.left{
+    position: absolute;
+    display: flex;
+    width: 300px;
+    height: 400px;
+    z-index: 5;
+    flex-direction: column;
+}
+
+.arrow{
+    
+    position: relative;
+    top: 68px;
+    left: 30px;
+    display: inline-block;
+    
+}
+
+.Name{
+    display: flex;
+    height: 100px;
+    position: relative;
+    top: 125px;
+    left: 34px;
+    width: 400px;
+    text-align: left;
+    font: normal normal 800 29px/32px Open Sans;
+    letter-spacing: 0px;
+    color: #242424;
+
+}
+
+.rating{
+    top: 7px;
+    position: relative;
+/* left: 130px; */
+left:20px;
+width: 28px;
+height: 14px;
+color:white;
+
+/* UI Properties */
+background: #51C452 0% 0% no-repeat padding-box;
+border-radius: 4px;
+font-size: 0.8rem;
+display: flex;
+    justify-content: center;
+    align-items: center;
+  /* justify-content: space-around; */
+}
+
+.description{
+    left: 24px;
+    top: 63px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* height: 40px; */
+    text-align: left;
+    font: normal normal normal 12px/19px Open Sans;
+    letter-spacing: 0.16px;
+    color: #A3A3A3;
+    opacity: 1;
+}
+.hour{
+    /* display: flex; */
+    display: flex;
+    position: relative;
+    top: 58px;
+    width: 90px;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+    /* text-align: left;
+    font: normal normal 600 10px/14px Open Sans;
+    letter-spacing: 0px;
+    color: #1C1C1C;
+    opacity: 1; */
+    /* border: 1px solid black; */
+}
+.watch_2{
+    position: relative;
+    left: 28px;
+    height: 17px;
+    width: 17px;
+}
+.time{
+    width: 31px;
+    height: 34px;
+    text-align: left;
+  
+    margin-left: 15px;
+    font: normal normal 800 10px/14px Open Sans;
+    letter-spacing: 0px;
+    color: #1C1C1C;
+    opacity: 1;
+}
+.under__line {
+    position: relative;
+    left: 0px;
+    top: 81px;
+    width: 257px;
+    height: 3px;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    opacity: 1;
+}

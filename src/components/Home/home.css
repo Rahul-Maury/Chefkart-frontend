@@ -1,0 +1,14 @@
+.home{
+    top: 0px;
+left: 0px;
+width: 440px;
+/* height: 912px; */
+/* UI Properties */
+margin: 4rem auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+background: white 0% 0% no-repeat padding-box;
+opacity: 1;
+}
